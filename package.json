@@ -1,0 +1,31 @@
+{
+  "name": "service-delay",
+  "version": "0.0.1",
+  "description": "Delay as a service",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "$(npm bin)/node-dev server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kr1sp1n/service-delay.git"
+  },
+  "keywords": [
+    "service",
+    "delay"
+  ],
+  "author": "kr1sp1n",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kr1sp1n/service-delay/issues"
+  },
+  "homepage": "https://github.com/kr1sp1n/service-delay",
+  "devDependencies": {
+    "node-dev": "^2.7.1"
+  },
+  "dependencies": {
+    "debug": "^2.2.0"
+  }
+}
